@@ -1,0 +1,35 @@
+/* .homeContainer{
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+}
+
+.homeTitle{
+    width: 100%;
+    font-size: 20px;
+    max-width: 1024px;
+} */
+
+.homeContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0 20px; /* Add padding to the container */
+  }
+  
+  .homeTitle {
+    width: 100%;
+    font-size: 20px;
+    max-width: 1024px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .homeTitle {
+      font-size: 18px; /* Adjust the font size for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,106 @@
+/* 
+
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo1 {
+  font-weight: 500;
+}
+
+.navItems {
+  display: flex;
+}
+
+.navButton {
+  margin-left: 10px;
+  border: none;
+  padding: 5px 10px;
+  color: #003580;
+}
+
+@media screen and (max-width: 480px) {
+
+  .navbar{
+    margin-left: -8px;
+    margin-right: -8px;
+    width: 104%;
+  }
+
+  .navButton {
+    margin-left: 5px;
+    padding: 5px;
+  }
+} */
+
+
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Add padding to the container */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo1 {
+  font-weight: 500;
+}
+
+.navItems {
+  display: flex;
+}
+
+.navButton {
+  margin-left: 10px;
+  border: none;
+  padding: 5px 10px;
+  color: #003580;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    margin-left: -8px;
+    margin-right: -8px;
+    width: 104%;
+  }
+
+  .navButton {
+    margin-left: 5px; /* Adjust the margin for smaller screens */
+    padding: 5px; /* Adjust the padding for smaller screens */
+  }
+}
+
