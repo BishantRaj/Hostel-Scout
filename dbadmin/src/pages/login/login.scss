@@ -1,0 +1,42 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .lContainer {
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  .lInput {
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .lButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #003580;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .lButton:hover {
+    background-color: #5f98e7;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .lContainer {
+      width: 90%;
+    }
+  }
+  
